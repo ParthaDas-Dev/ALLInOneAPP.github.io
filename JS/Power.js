@@ -53,115 +53,85 @@ function getInput() {
   if (sel1Value === "mili" && sel2Value === "mili") {
     user_In = parseFloat(input.value);
     result.value = user_In;
-  }
- else if (sel1Value === "mili" && sel2Value === "watts") {
+  } else if (sel1Value === "mili" && sel2Value === "watts") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000;
-  } 
-
-  else if (sel1Value === "mili" && sel2Value === "kilo") {
+  } else if (sel1Value === "mili" && sel2Value === "kilo") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000;
-  } 
-  else if (sel1Value === "mili" && sel2Value === "mega") {
+  } else if (sel1Value === "mili" && sel2Value === "mega") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000000;
-  } 
-  else if (sel1Value === "mili" && sel2Value === "giga") {
+  } else if (sel1Value === "mili" && sel2Value === "giga") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000000000;
-  } 
-
+  }
 
   if (sel1Value === "watts" && sel2Value === "mili") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000;
   }
-  
+
   if (sel1Value === "watts" && sel2Value === "watts") {
     user_In = parseFloat(input.value);
     result.value = user_In;
-  }
-  else if (sel1Value === "watts" && sel2Value === "kilo") {
+  } else if (sel1Value === "watts" && sel2Value === "kilo") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000;
-  }
-   else if (sel1Value === "watts" && sel2Value === "mega") {
+  } else if (sel1Value === "watts" && sel2Value === "mega") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000;
-  }
-  else if (sel1Value === "watts" && sel2Value === "giga") {
+  } else if (sel1Value === "watts" && sel2Value === "giga") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000000;
   }
   if (sel1Value === "kilo" && sel2Value === "kilo") {
     user_In = parseFloat(input.value);
     result.value = user_In;
-  }
-  else if (sel1Value === "kilo" && sel2Value === "mili") {
+  } else if (sel1Value === "kilo" && sel2Value === "mili") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000;
-  }
-  else if (sel1Value === "kilo" && sel2Value === "watts") {
+  } else if (sel1Value === "kilo" && sel2Value === "watts") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000;
-  }
-  else if (sel1Value === "kilo" && sel2Value === "mega") {
+  } else if (sel1Value === "kilo" && sel2Value === "mega") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000;
-  }
-  else if (sel1Value === "kilo" && sel2Value === "giga") {
+  } else if (sel1Value === "kilo" && sel2Value === "giga") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000000;
-  }
-
-  else if (sel1Value === "mega" && sel2Value === "mega") {
+  } else if (sel1Value === "mega" && sel2Value === "mega") {
     user_In = parseFloat(input.value);
     result.value = user_In;
-  }
-  
-  else if (sel1Value === "mega" && sel2Value === "mili") {
+  } else if (sel1Value === "mega" && sel2Value === "mili") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000000000;
-  }
-  else if (sel1Value === "mega" && sel2Value === "watts") {
+  } else if (sel1Value === "mega" && sel2Value === "watts") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000000;
-  }
-  else if (sel1Value === "mega" && sel2Value === "kilo") {
+  } else if (sel1Value === "mega" && sel2Value === "kilo") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000;
-  }
-  else if (sel1Value === "mega" && sel2Value === "giga") {
+  } else if (sel1Value === "mega" && sel2Value === "giga") {
     user_In = parseFloat(input.value);
     result.value = user_In / 1000;
   }
   if (sel1Value === "giga" && sel2Value === "giga") {
     user_In = parseFloat(input.value);
     result.value = user_In;
-  }
-
-  else if (sel1Value === "giga" && sel2Value === "mili") {
+  } else if (sel1Value === "giga" && sel2Value === "mili") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000000000000;
-  } 
-  
-  else if (sel1Value === "giga" && sel2Value === "watts") {
+  } else if (sel1Value === "giga" && sel2Value === "watts") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000000000;
-  } 
-  else if (sel1Value === "giga" && sel2Value === "kilo") {
+  } else if (sel1Value === "giga" && sel2Value === "kilo") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000000;
-  } 
-  else if (sel1Value === "giga" && sel2Value === "mega") {
+  } else if (sel1Value === "giga" && sel2Value === "mega") {
     user_In = parseFloat(input.value);
     result.value = user_In * 1000;
-  } 
-  
-  else {
-    alert("Please Enter A Valid Value || Select on from both of the menus");
+  } else {
+    console.log("OK");
   }
-  
 }
-
