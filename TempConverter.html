@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temp Converter</title>
+    <link href="./CSS/Temp.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Loading ">
+      <img src="images/loader.gif" alt="Loading" />
+      <h2>Hold On, Loading...</h2>
+    </div>
+    <header>
+      <div class="heading" >
+          <img src="images/MENU.svg">
+      <h2 class="head1"> ALL IN ONE APP</h2>
+  </div>
+  <main>
+    <a href="index.html">
+    <div class="back-btn">
+      <img src="images/back.svg">
+      <h3>GO BACK</h3>
+    </div>
+  </a>
+  <form class="Temp-main" action="#!">
+    <div>
+        <h1 class="main-head">Temperature Converter</h1>
+        <div class="underline"></div>
+    </div>
+   <div class="fahren">
+       <h2 >Fahrenheit :</h2>
+   </div>
+   <div>
+       <input type="number" id="Fahren-input" autocomplete="off" oninput="fCalculate()">
+   </div>
+   <div class="celsius">
+    <h2 >   Celsius :</h2>
+</div>
+<div id="main-cel">
+    <input type="number" id="Cel-input" autocomplete="off" oninput="cCalculate()" >
+</div>
+
+<div class="Kelvin">
+    <h2 >  Kelvin :</h2>
+</div>
+<div>
+    <input type="number" id="Kel-input" autocomplete="off" oninput="kCalculate()">
+</div>
+
+
+    </form >
+ 
+  </main>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+  <script src="./JS/Temp.js"></script>
+  </body>
+</html>

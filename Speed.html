@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Power Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./CSS/Speed.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Loading ">
+      <img src="images/loader.gif" alt="Loading" />
+      <h2>Hold On, Loading...</h2>
+    </div>
+    <header>
+      <div class="heading">
+        <img src="images/MENU.svg" />
+        <h2 class="head1">ALL IN ONE APP</h2>
+      </div>
+      <main>
+        <a href="index.html">
+          <div class="back-btn">
+            <img src="images/back.svg" />
+            <h3>GO BACK</h3>
+          </div>
+        </a>
+        <div class="speed-main" >
+          <div>
+            <h1 class="main-head"> Speed Calculator</h1>
+            <div class="underline"></div>
+          </div>
+           
+           <div  class="selection-menus">
+          <div  class="select1">
+     <select id="sel1" >
+          <option>Select One</option>
+         <option value="meter">Meter Per Seconds</option>
+         <option value="miles">Miles Per Hour</option>
+         <option value="kilo">  Kilometer Per Hour</option>
+        
+        
+
+     </select>
+     <p class="icon1"><i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
+          </div >
+          
+          <div  class="select2">
+            <select id="sel2" >
+              <option>Select One</option>
+              <option value="meter">Meter Per Second</option>
+              <option value="miles">Miles Per Hour</option>
+              <option value="kilo">  Kilometer Per Hour</option>
+              
+       
+            </select>
+            <p class="icon2"><i class="fa fa-angle-double-down" aria-hidden="true"></i></p>
+                 </div >
+           </div >
+
+           <div  class="inputs">
+            <div>
+              <input type="number" id="input1" placeholder="Enter A Value" >
+            </div>
+            <div>
+              <input type="number" id="input2"  placeholder="Your Result">
+            </div>
+           </div >
+        </div>
+      </main>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+    <script src="./JS/Speed.js"></script>
+  </body>
+</html>

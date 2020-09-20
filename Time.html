@@ -1,0 +1,92 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title> Time Converter</title>
+      <link href="./CSS/Time.css" rel="stylesheet" />
+    </head>
+    <body>
+      <div class="Loading ">
+        <img src="images/loader.gif" alt="Loading" />
+        <h2>Hold On, Loading...</h2>
+      </div>
+      <header>
+        <div class="heading">
+          <img src="images/MENU.svg" />
+          <h2 class="head1">ALL IN ONE APP</h2>
+        </div>
+        <main>
+          <a href="index.html">
+            <div class="back-btn">
+              <img src="images/back.svg" />
+              <h3>GO BACK</h3>
+            </div>
+          </a>
+          <form class="time-main" action="#!">
+            <div>
+              <h1 class="main-head">Time Converter</h1>
+              <div class="underline"></div>
+            </div>
+            <div class="mili anim1">
+              <h2> Mili-Seconds :</h2>
+            </div>
+            <div>
+              <input type="number" id="mili-input" autocomplete="off" />
+            </div>
+            <div class="secs anim1">
+              <h2>  Seconds :</h2>
+            </div>
+            <div>
+              <input type="number" id="secs-input" autocomplete="off"  />
+            </div>
+  
+            <div class=" min anim1">
+              <h2>Minutes : </h2>
+            </div>
+            <div>
+              <input type="number" id="min-input" autocomplete="off"  />
+            </div>
+            <div class="hrs anim1">
+              <h2>  Hours :</h2>
+            </div>
+            <div>
+              <input type="number" id="hrs-input" autocomplete="off" />
+            </div>
+            <div class="days anim1">
+              <h2>Days :</h2>
+            </div>
+            <div>
+              <input type="number" id="days-input" autocomplete="off"  />
+            </div>
+            <div class="wks anim1">
+                <h2>Weeks :</h2>
+              </div>
+              <div>
+                <input type="number" id="wks-input" autocomplete="off"  />
+              </div>
+              <div class="mth anim1">
+                <h2>Month :</h2>
+              </div>
+              <div>
+                <input type="number" id="mth-input" autocomplete="off"  />
+              </div>
+            <div class="years anim1">
+                <h2>Years :</h2>
+              </div>
+              <div>
+                <input type="number" id="years-input" autocomplete="off"  />
+              </div>
+              <div class="cent anim1">
+                <h2>Centuries :</h2>
+              </div>
+              <div>
+                <input type="number" id="cent-input" autocomplete="off"  />
+              </div>
+          </form>
+        </main>
+      </header>
+      <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+      <script src="./JS/Time.js"></script>
+    </body>
+  </html>
+    

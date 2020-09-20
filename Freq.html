@@ -1,0 +1,69 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frequency Converter</title>
+    <link href="./CSS/Freq.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Loading ">
+      <img src="images/loader.gif" alt="Loading" />
+      <h2>Hold On, Loading...</h2>
+    </div>
+    <header>
+      <div class="heading">
+        <img src="images/MENU.svg" />
+        <h2 class="head1">ALL IN ONE APP</h2>
+      </div>
+      <main>
+        <a href="index.html">
+          <div class="back-btn">
+            <img src="images/back.svg" />
+            <h3>GO BACK</h3>
+          </div>
+        </a>
+        <form class="freq-main" action="#!">
+          <div>
+            <h1 class="main-head">Frequency Converter</h1>
+            <div class="underline"></div>
+          </div>
+          <div class="hertz anim1">
+            <h2>  Hertz:</h2>
+          </div>
+          <div>
+            <input type="number" id="hz-input" autocomplete="off" />
+          </div>
+          <div class="k-hertz anim1">
+            <h2>   Kilohertz :</h2>
+          </div>
+          <div>
+            <input type="number" id="khz-input" autocomplete="off"  />
+          </div>
+
+          <div class=" m-hertz anim1">
+            <h2>Megahertz : </h2>
+          </div>
+          <div>
+            <input type="number" id="mhz-input" autocomplete="off"  />
+          </div>
+          <div class="g-hertz anim1">
+            <h2>  Gigahertz :</h2>
+          </div>
+          <div>
+            <input type="number" id="ghz-input" autocomplete="off" />
+          </div>
+          <div class="t-hertz anim1">
+            <h2>Terahertz :</h2>
+          </div>
+          <div>
+            <input type="number" id="thz-input" autocomplete="off"  />
+          </div>
+         
+        </form>
+      </main>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+    <script src="./JS/Freq.js"></script>
+  </body>
+</html>
+  

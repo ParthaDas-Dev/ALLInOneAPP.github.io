@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title> Discount Calculator</title>
+      <link href="./CSS/Discount.css" rel="stylesheet" />
+    </head>
+    <body>
+      <div class="Loading ">
+        <img src="images/loader.gif" alt="Loading" />
+        <h2>Hold On, Loading...</h2>
+      </div>
+      <header>
+        <div class="heading">
+          <img src="images/MENU.svg" />
+          <h2 class="head1">ALL IN ONE APP</h2>
+        </div>
+        <main>
+          <a href="index.html">
+            <div class="back-btn">
+              <img src="images/back.svg" />
+              <h3>GO BACK</h3>
+            </div>
+          </a>
+          <form class="dis-main" action="#!">
+            <div>
+              <h1 class="main-head">Discount Calculator</h1>
+              <div class="underline"></div>
+            </div>
+            <div class="original ">
+              <h2> Original Price :</h2>
+            </div>
+            <div>
+              <input type="number" id="ori-input" autocomplete="off" />
+            </div>
+            <div class="dis ">
+              <h2>  Discount(% Off) :</h2>
+            </div>
+            <div>
+              <input type="number" id="dis-input" autocomplete="off"  />
+            </div>
+  
+            <div class=" final ">
+              <h2> Final Price : </h2>
+            </div>
+            <div>
+              <input type="number" id="final-input" autocomplete="off" disabled />
+            </div>
+           <div class="Extra-details">
+           <p>YOU SAVE : <span id="saving"></span></p>
+        </div>
+          </form>
+        </main>
+      </header>
+      <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+      <script src="./JS/Discount.js"></script>
+    </body>
+  </html>
+    

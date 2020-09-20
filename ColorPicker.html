@@ -1,0 +1,218 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Color Picker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./CSS/Color.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="Loading ">
+      <img src="images/loader.gif" alt="Loading" />
+      <h2>Hold On, Loading...</h2>
+    </div>
+    <header>
+      <div class="heading">
+        <img src="images/MENU.svg" />
+        <h2 class="head1">ALL IN ONE APP</h2>
+      </div>
+      <main>
+        <a href="index.html">
+          <div class="back-btn">
+            <img src="images/back.svg" />
+            <h3>GO BACK</h3>
+          </div>
+        </a>
+        <div class="color-main" >
+          <div>
+            <div class="heading-main">
+            <h1 class="main-head"> Color Picker </h1>
+          </div>
+            <div class="heading1">
+              <h3>Custom Color Picker</h3>
+            </div>
+           </div >
+           <div class="c-tool">
+           <div class="color-picker"></div>
+        </div>
+          <div class="des">
+            <h5>Click On The Square Button <br>To Open Up The Custom Color Picker! </h5>
+          </div>
+
+           <div class="user-color" id="user-choice">
+             <h2>Your Choice!</h2>
+           </div>
+           <div class="Explore-pal">
+             <h4>Explore Color Palette & Gradients Below</h4> 
+             <a href="#color-pal">Explore Now</a>
+           </div>
+           <div class="pal">
+            <h1> COLOR PALETTE  </h1>
+          </div>        
+          <div id="color-pal">
+           <div>
+             <p class="col-pals" style="user-select:all;" onclick="copying()">#27ae60</p>
+           </div>
+           <div>
+            <p class="col-pals1" style="user-select:all;" onclick="copying()">#2be92b</p>
+          </div>
+          <div>
+            <p class="col-pals2" style="user-select:all;" onclick="copying()">#009432</p>
+          </div>
+          <div>
+            <p class="col-pals3" style="user-select:all;" onclick="copying()">#2ed573</p>
+          </div>
+          
+          </div>
+          <div id="color-pal1">
+            <div>
+              <p class="col-pals4" style="user-select:all;" onclick="copying()">#6ab04c</p>
+            </div>
+            <div>
+             <p class="col-pals5" style="user-select:all;" onclick="copying()">#0f3d0f</p>
+           </div>
+           <div>
+             <p class="col-pals6" style="user-select:all;" onclick="copying()">#40bf40</p>
+           </div>
+           <div>
+             <p class="col-pals7" style="user-select:all;" onclick="copying()">#0edf4d</p>
+           </div>
+           
+           </div>
+           <div id="color-pal2">
+            <div>
+              <p class="col-pals8" style="user-select:all;" onclick="copying()">#10A881</p>
+            </div>
+            <div>
+             <p class="col-pals9" style="user-select:all;" onclick="copying()">#218F76</p>
+           </div>
+           <div>
+             <p class="col-pals10" style="user-select:all;" onclick="copying()">#0A79DF</p>
+           </div>
+           <div>
+             <p class="col-pals11" style="user-select:all;" onclick="copying()">#2d98da</p>
+           </div>
+           
+           </div>
+           <div id="color-pal3">
+            <div>
+              <p class="col-pals12" style="user-select:all;" onclick="copying()">#4b6584</p>
+            </div>
+            <div>
+             <p class="col-pals13" style="user-select:all;" onclick="copying()">#192A56</p>
+           </div>
+           <div>
+             <p class="col-pals14" style="user-select:all;" onclick="copying()">#0652DD</p>
+           </div>
+           <div>
+             <p class="col-pals15" style="user-select:all;" onclick="copying()">#5758BB</p>
+           </div>
+           
+           </div>
+           <div id="color-pal4">
+            <div>
+              <p class="col-pals16" style="user-select:all;" onclick="copying()">#5352ed</p>
+            </div>
+            <div>
+             <p class="col-pals17" style="user-select:all;" onclick="copying()">#3C40C6</p>
+           </div>
+           <div>
+             <p class="col-pals18" style="user-select:all;" onclick="copying()">#8854d0</p>
+           </div>
+           <div>
+             <p class="col-pals19" style="user-select:all;" onclick="copying()">#BB2CD9</p>
+           </div>
+           
+           </div>
+           <div id="color-pal5">
+            <div>
+              <p class="col-pals20" style="user-select:all;" onclick="copying()">#EA7773</p>
+            </div>
+            <div>
+             <p class="col-pals21" style="user-select:all;" onclick="copying()">#fa8231</p>
+           </div>
+           <div>
+             <p class="col-pals22" style="user-select:all;" onclick="copying()">#F3B431</p>
+           </div>
+           <div>
+             <p class="col-pals23" style="user-select:all;" onclick="copying()">#c44569</p>
+           </div>
+           
+           </div>
+           <div id="color-pal6">
+            <div>
+              <p class="col-pals24" style="user-select:all;" onclick="copying()">#B83227</p>
+            </div>
+            <div>
+             <p class="col-pals25" style="user-select:all;" onclick="copying()">#ff5252</p>
+           </div>
+           <div>
+             <p class="col-pals26" style="user-select:all;" onclick="copying()">#EA425C</p>
+           </div>
+           <div>
+             <p class="col-pals27" style="user-select:all;" onclick="copying()">#823039</p>
+           </div>
+           
+           </div>
+
+            <div id="color-pal7">
+            <div>
+              <p class="col-pals28" style="user-select:all;" onclick="copying()">#303952</p>
+            </div>
+            <div>
+             <p class="col-pals29" style="user-select:all;" onclick="copying()">#4C4B4B</p>
+           </div>
+           <div>
+             <p class="col-pals30" style="user-select:all;" onclick="copying()">#333945</p>
+           </div>
+           <div>
+             <p class="col-pals31" style="user-select:all;" onclick="copying()">#758AA2</p>
+           </div>
+           
+           </div>
+
+           <div id="color-pal8">
+            <div>
+              <p class="col-pals32" style="user-select:all;" onclick="copying()">#660066</p>
+            </div>
+            <div>
+             <p class="col-pals33" style="user-select:all;" onclick="copying()">#751344</p>
+           </div>
+           <div>
+             <p class="col-pals34" style="user-select:all;" onclick="copying()">#221804</p>
+           </div>
+           <div>
+             <p class="col-pals35" style="user-select:all;" onclick="copying()">#5e2c04</p>
+           </div>
+           
+           </div>
+
+           <div id="color-pal9">
+            <div>
+              <p class="col-pals36" style="user-select:all;" onclick="copying()">#01271a</p>
+            </div>
+            <div>
+             <p class="col-pals37" style="user-select:all;" onclick="copying()">#6b0718</p>
+           </div>
+           <div>
+             <p class="col-pals38" style="user-select:all;" onclick="copying()">#c9cc24</p>
+           </div>
+           <div>
+             <p class="col-pals39" style="user-select:all;" onclick="copying()">#190355</p>
+           </div>
+           
+           </div>
+
+          </div>
+        
+           
+    
+      </main>
+    </header>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+    <script src="./JS/Color.js"></script>
+  </body>
+</html>
